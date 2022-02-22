@@ -1,0 +1,26 @@
+.home {
+  display: flex;
+}
+@media only screen and (max-width: 767px) {
+  .home {
+   flex-direction: column;
+  }
+  .posts{
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+    margin-top:50px
+  }
+  .postImg{
+    width: 300px !important;
+    align-items: center !important;
+  }
+  .post{
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
